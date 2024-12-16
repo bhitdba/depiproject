@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Destination Database  Master"
+  DTS:DTSID="{6B35EDD4-8911-4C3A-93D7-534E62E0138C}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=RESPITE\SQLEXPRESS;Initial Catalog=master;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-SSIS Project DEPI Assignment 1-{6B35EDD4-8911-4C3A-93D7-534E62E0138C}RESPITE\SQLEXPRESS.master;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
